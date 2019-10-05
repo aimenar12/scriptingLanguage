@@ -1,0 +1,28 @@
+<html>
+<head>
+<title></title>
+</head>
+<script type="text/javascript">
+console.log("starting");	
+
+function student(age,name,semester){
+ 	
+ 	this.age=age;
+ 	this.name=name;
+ 	this.semester=semester;
+ }
+'' 
+ std1=new student("22","Anam","1st");
+ std2=new student("22","aimen","2nd");
+ std3=new student("21","Farhana","3rd");
+student.prototype.Program="null";
+std1.Program="mcs1";
+std2.Program="mcs2";
+std3.Program="mcs3";
+ object.defineproperty()
+ var arr =[std1,std2,std3];
+ console.log(arr);
+</script>
+<body>
+</body>
+</html>
